@@ -1,0 +1,79 @@
+body {
+	background-color: lightblue;
+	background: url("../images/jeopardy.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+.grid {
+	width: 600px;
+	height:500px;
+	margin: auto;
+	background-color: #fff;
+	padding: 10px 50px 50px 50px;
+	border-radius: 50px;
+	border: 2px solid #0033cc;
+}
+
+.grid h1 { 
+	text-align: center;
+	color: darkblue;
+}
+
+.grid #question {
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 40px;
+
+}
+
+#title {
+
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 40px;
+
+}
+
+/* the <hr> tags are for separating content on the page represented here by "top" and "bottom".*/
+
+#top {
+	
+	display: block;
+	margin-top: .05em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 5px;
+	/*border-color: yellow;*/
+}
+
+#bottom {
+
+	display: block;
+	margin-top: .05em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: outset;
+	border-width: 5px;
+	/*border-color: yellow;*/
+}
+ 
+.buttons {
+
+	margin-top: px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+background-color: #778897;
+width: 250px;
+font-size: 20px;
+color: #fff;
+border: 1px solid #1d3c6a;
+border-radius: 50px;
+margin: 10px 40px 10px 0px;
+padding: 10px 10px;
+
+}
