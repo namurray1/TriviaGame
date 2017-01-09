@@ -65,6 +65,7 @@ body {
 
 	margin-top: px;
 }
+/*will change the color of our buttons and style further*/
 
 #btn0, #btn1, #btn2, #btn3 {
 background-color: #778897;
@@ -76,4 +77,11 @@ border-radius: 50px;
 margin: 10px 40px 10px 0px;
 padding: 10px 10px;
 
+
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+	background-color: darkblue;
+	cursor: pointer;
+	outline: none;
 }
