@@ -48,6 +48,10 @@ Quiz.prototype.guess = function(answser) {
 			element.innerHTML = choices[i];
 		}
 	}
+};
+function showScores() {
+	var gameOverHtml = "<h1>"Result</h1>"
+	gameOverHtml += "he"
 }
 // Add 10 questions here plus a timer
 
